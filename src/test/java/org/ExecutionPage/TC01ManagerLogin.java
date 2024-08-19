@@ -64,8 +64,9 @@ public class TC01ManagerLogin extends BaseClass {
 			base.handleAlert();
 			base.sleep(5000);
 			
+			System.out.println("successfully _Login");
 			
-			
+			System.out.println("Successfully_Logout");
 			
 
 		} catch (Exception e) {
