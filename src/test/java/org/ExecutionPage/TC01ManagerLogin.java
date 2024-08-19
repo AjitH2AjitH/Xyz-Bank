@@ -30,8 +30,6 @@ public class TC01ManagerLogin extends BaseClass {
 				System.out.println("UserLogin_UnsucessFully");
 			}
 
-
-			
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 			e.printStackTrace();
@@ -63,10 +61,10 @@ public class TC01ManagerLogin extends BaseClass {
 			base.clickByJava(addman);
 			base.handleAlert();
 			base.sleep(5000);
-			
-			
-			
-			
+
+			System.out.println("erty");
+
+			System.out.println("oiuhygfd");
 
 		} catch (Exception e) {
 			// TODO: handle exception
